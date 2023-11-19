@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991e68259cc4ec74d8df4f807e436ab2, type: 3}
+  m_Name: New partner (Path 1)
+  m_EditorClassIdentifier: 
+  strStoryText: 'Surprisingly, the woman is friendly and offers her help. Skull,
+    trusting her words.
+
+
+    Skull joins forces with the unknown woman. He learn
+    that the woman also fueled by a desire for revenge toward Mohawk. Equipped with
+    an M4, they set off together.
+
+
+    What is their next step?
+
+    1. They deicde
+    to go to the main staircase (Fast Route).
+
+    2. They decide to go to the corner
+    staircase (Slow route).'
+  nextState:
+  - {fileID: 11400000, guid: 08525d1889830ac4eb48f8fafdae571c, type: 2}
+  - {fileID: 11400000, guid: 149a4a80a25cd6444b5e51a5329951e9, type: 2}

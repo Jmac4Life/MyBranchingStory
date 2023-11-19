@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991e68259cc4ec74d8df4f807e436ab2, type: 3}
+  m_Name: Path to Cheeseburger (Path 3)
+  m_EditorClassIdentifier: 
+  strStoryText: "As Skull is walking along the woods. Skull's eyes quickly lock onto
+    Cheeseburger, the magnificent looking bear passing by Helyar Pond that everyone
+    knows about. \n\nWhat action should Skull take?\n1. Skull walk up to Cheeseburger
+    and ask him for help.\n2. Decided to back off and go to the other direction."
+  nextState:
+  - {fileID: 11400000, guid: a103e186e9809254daaf3d0e9efd06aa, type: 2}
+  - {fileID: 11400000, guid: 4d68d324015ff7149ae8dfb4964e93a1, type: 2}

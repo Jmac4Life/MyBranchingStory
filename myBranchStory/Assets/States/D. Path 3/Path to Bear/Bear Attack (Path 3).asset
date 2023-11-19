@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991e68259cc4ec74d8df4f807e436ab2, type: 3}
+  m_Name: Bear Attack (Path 3)
+  m_EditorClassIdentifier: 
+  strStoryText: 'The bear looks at Skull and start to charge at him. Skull is panicking!
+    He tries to think of something fast.
+
+
+    What should Skull do?
+
+    1. Skull
+    try to defend himself with his bare hand.
+
+    2. He grabs some berries from
+    a nearby branch.'
+  nextState:
+  - {fileID: 11400000, guid: ae1f018c20375f847a6f78ea1ee6af06, type: 2}
+  - {fileID: 11400000, guid: f7d6ad75426078444aa0458c8e5258d0, type: 2}

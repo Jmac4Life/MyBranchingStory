@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991e68259cc4ec74d8df4f807e436ab2, type: 3}
+  m_Name: Path to Gus. (Path 3)
+  m_EditorClassIdentifier: 
+  strStoryText: 'While moving about, Skull unexpectedly encounters a fellow named
+    Gus, who castes a watchful gaze in his direction. Despite the initial caution,
+    Gus takes the initiative to introduce himself, unveiling his name to Skull. He
+    then asks Skull his name.
+
+
+    What should Skull do?
+
+    1. Introduce himself
+    and make the interaction as friendly as possible.
+
+    2. Stays silent, not revealing
+    his name to Gus'
+  nextState:
+  - {fileID: 11400000, guid: d73a2d87eb3896e4183f029bdcb79126, type: 2}
+  - {fileID: 11400000, guid: 17f5cc1303176764eac754134d3a8808, type: 2}

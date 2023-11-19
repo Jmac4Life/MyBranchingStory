@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991e68259cc4ec74d8df4f807e436ab2, type: 3}
+  m_Name: Safest Path (Path 1)
+  m_EditorClassIdentifier: 
+  strStoryText: 'Although the corner staircase is inconvenient, they find it empty
+    and unguarded, offering a safer route forward. Their journey for revenge continues.
+
+
+    They
+    manage to break into the main lobby where the Mohawk Makers are caught off guard
+    and Skull kill the leader. But face by the leader''s follower weapon draw upon
+    Skull and the woman.
+
+
+    What should Skull do next?
+
+    1. Try to talk his
+    way out.
+
+    2. Try to fight the follower.'
+  nextState:
+  - {fileID: 11400000, guid: 53555b91faedebb43bee54225ab86b17, type: 2}
+  - {fileID: 11400000, guid: b1bfa4eeed66c1d4989f7982ea27a128, type: 2}
